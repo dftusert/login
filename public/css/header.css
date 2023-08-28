@@ -1,0 +1,136 @@
+.nav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #5C5C5C;
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 5px;
+    font-weight: 900;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    width: 33.3333%;
+    color: rgb(47, 47, 47) !important;
+    background-color: #e3e0e0;
+    transition: all .5s;
+}
+.c-table{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+}
+.nav-link span {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+.nav-link img {
+    width: 18px;
+    height: 18px;
+}
+.mess{
+    padding: 10px;
+    text-align: left;
+}
+.main {
+    display: flex;
+}
+
+
+
+@media (max-width: 800px) {
+  
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+}
+
+@media(max-width: 765px) {
+    .navbar-brand {
+        font-size: 13;
+    }
+}
+
+@media (max-width: 379px) {
+    .username {
+        margin: 0 auto;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        font-size: 8;
+
+    }
+
+    .navbar-brand p {
+        width: 95px;
+    }
+
+    .name-first {
+        margin: 8px 0;
+        text-align: end;
+
+    }
+
+    .name-second {
+        margin: 8px 0;
+        text-align: start;
+
+    }
+
+    .navbar-brand img {
+        width: 20px;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav span {
+        font-size: 10 !important;
+    }
+}
+
+.one {
+    color: red;
+}
+
+.two {
+    color: red;
+}
+
+.three {
+    color: red;
+}
+
+.four {
+    color: red;
+}
+
+.five {
+    color: red;
+}
+
+
+.rating-item {
+    color: #E0DFDF;
+}

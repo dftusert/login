@@ -1,0 +1,214 @@
+
+.nav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-link {
+    width: 33.3333%;
+}
+
+.nav-link span {
+    font-size: 15;
+}
+
+.nav-link img {
+    width: 18px;
+    height: 18px;
+}
+
+.main {
+    display: flex;
+}
+
+.messages {
+    color: #000000;
+}
+
+.student-block{
+    width:30%;
+}
+.table{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.table-responsive-sm{
+    width:50% ;
+}
+.collaps .flex-row{
+    justify-content:space-between;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+.collaps{
+    width: 100% ;
+    text-align: center;
+}
+.collaps-rtng{
+    width: 50% ;
+    text-align: center;
+}
+#grupp{
+    color: silver;
+}
+#p-export{
+    font-weight: bold;
+}
+
+
+h1{
+    font-weight: bold;
+}
+#title-date{
+    justify-content: center;
+    
+}
+.messages{
+    width: 100%;
+    
+}
+#date-img{
+    margin: 5px 10px 0 ;
+}
+#date{
+    min-width: 90px!important;
+}
+.content{
+    justify-content:space-around;
+    padding: 30px !important;
+    display: flex ;
+}
+#btn{
+    justify-content:space-evenly !important;
+}
+
+.fio{
+    font-size:larger; 
+    margin:0 0 20px 0;
+     width: 250px; 
+}
+.fio-sd{
+    display: none !important;
+}
+i{
+    font-size: 16px;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+#price{
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (max-width:1100px) {
+    .content{
+        display: block ;
+    }
+    .student-block{
+        width: 100%;
+        display: flex !important;
+    }
+    .student-block>div{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media(max-width: 765px) {
+    .navbar-brand {
+        font-size: 10;
+    }
+}
+@media (max-width: 640px) {
+     /* .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    } */
+    .student-block>div{
+        width: 45%;
+        margin: auto;
+    }  
+}
+@media (max-width: 600px) {
+    .student-block{
+        display: block !important;
+    } 
+    .student-block>div{
+        width: 90%;
+        margin: auto;
+    } 
+    .collaps-rtng{
+        width:80% ;
+        margin:auto;
+    }
+    .table-responsive-sm{
+        width:100% !important;
+    }
+    .table{
+        width: 100% !important;
+    }
+}
+
+
+
+@media (max-width: 379px) {
+    .FIO {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        font-size: 8;
+        
+
+    }
+
+    .navbar-brand p {
+        width: 95px;
+    }
+
+    .name-first {
+        text-align: end;
+    }
+
+    .name-second {
+        text-align: start;
+    }
+
+    .navbar-brand img {
+        width: 20px;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav span {
+        font-size: 10 !important;
+    }
+}
+
+@media (max-width: 540px){
+    .navbar-brand{
+        margin: 0;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+
+    }
+    .FIO{
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+
+
+

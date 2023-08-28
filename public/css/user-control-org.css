@@ -1,0 +1,170 @@
+
+.collaps >.flex-row{
+    justify-content:space-between;
+    width:100%;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+#grupp{
+    color: silver;
+}
+#p-export{
+    font-weight: bold;
+}
+.collaps{
+    width:40%;
+    margin:50px 0 0;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+}
+#title-date{
+    justify-content: center;
+    
+}
+#date-img{
+    margin: 5px 10px 0 ;
+}
+.content{
+    justify-content: space-evenly;
+}
+#btn{
+    gap: 30px;
+    justify-content:space-evenly !important;
+}
+.btn{
+    width: 45%;
+    
+}
+.form-control{
+    width: 100%;
+}
+.fio{
+    font-size:larger; 
+    margin:0 0 20px 0;
+     width: 250px; 
+}
+.fio-sm{
+    display: none !important;
+}
+i{
+    font-size: 16px;
+    
+}
+
+.rating{
+   margin: 0 0 0 auto ;
+} 
+.name{
+    font-size: 15px;
+    font-weight: bold;  
+   
+}
+#title_rtng{
+    padding-left: 0;
+}
+ #rtng{
+    padding:8px 0  8px 8px;
+} 
+#price{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#btn-sm{
+    display: none !important ;
+    
+}
+h1 {
+    font-weight: bold;
+}
+
+#title-date {
+    justify-content: space-evenly;
+
+}
+
+#date-img {
+    margin: 4px 0;
+    justify-content: center;
+}
+
+#date-img img {
+    margin: 0 5px 18px;
+}
+
+#date-img h1 {
+    font-size: larger;
+    margin: 0 0 20px 0;
+}
+
+
+.collaps_name{
+    width: 300px;
+    margin:50px 0 0;
+    text-align: center;
+}
+.collaps_name>.flex-row{
+    justify-content:space-between;
+    width:100%;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+tr{
+  line-height: 18px;
+}
+td{
+    text-align: left;
+}
+
+@media(max-width:1100px) {
+   
+}
+@media(max-width:900px) {
+ 
+ 
+
+}
+@media(max-width:800px) {
+  
+
+}
+@media(max-width:600px) {
+    
+    .content{
+        flex-direction: column-reverse ;
+    }
+    .collaps{
+        width:80%;
+        margin:40px auto 0;
+    }
+    .collaps_name{
+        width:80%;
+        margin:40px auto 0;
+    }
+    .fio{
+        display: none !important;
+    }
+    .fio-sm{
+        display: block !important;
+        font-size:larger; 
+        margin:0 auto 20px auto;
+         width: 250px; 
+    }
+    #btn-sm{
+        display: flex !important;
+        justify-content:space-evenly !important;
+    }
+    #btn{
+        display: none !important;
+    }
+    .btn{
+        margin: 20px 20px -10px 20px;
+    }
+   
+    
+    
+    
+}
